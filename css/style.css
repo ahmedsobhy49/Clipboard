@@ -708,16 +708,12 @@ video {
   background-color: rgb(13 148 136 / var(--tw-bg-opacity));
 }
 
-.bg-hero-image-sm {
-  background-image: url('../images/bg-header-mobile.png');
+.bg-hero-image {
+  background-image: url('../src/bg-header-desktop.png');
 }
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-scroll {
-  background-attachment: scroll;
 }
 
 .bg-center {
@@ -854,14 +850,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:bg-hero-image-lg {
-    background-image: url('../images/bg-header-desktop.png');
-  }
-
-  .sm\:bg-top {
-    background-position: top;
-  }
-
   .sm\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
